@@ -1,0 +1,516 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: dimgrey;
+}
+
+.box {
+    width: 100%;
+    height: 500px;
+}
+
+.section {
+    background: #818382;
+    padding-top: 20px;
+    
+}
+
+.section-0 {
+    height: 100vh;
+    background-image: url(../Bilder/SpiralKopf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: black;
+    font-size: 200%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 0;
+    text-shadow: 0 0 10px WhiteSmoke;
+}
+
+.section-1 {
+    height: 100vh;
+    background-image: url(../Bilder/AltesHoltzZimmer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+  
+}
+
+.section-2 {
+    height: 100vh;
+    background-image: url(../Bilder/Raumstazion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-3 {
+    height: 100vh;
+    background-image: url(../Bilder/Leder_Tasche1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-4 {
+    height: 100vh;
+    background-image: url(../Bilder/JapanischesWohnhaus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-5 {
+    height: 100vh;
+    background-image: url(../Bilder/EC-Karte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-6 {
+    height: 100vh;
+    background-image: url(../Bilder/lesezimmer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-7 {
+    height: 100vh;
+    background-image: url(../Bilder/Webstuhl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-8 {
+    height: 100vh;
+    background-image: url(../Bilder/Schatullen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-9 {
+    height: 100vh;
+    background-position: center;
+    background-image: url(../Bilder/SpiralKopf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-10 {
+    height: 100vh;
+    background-image: url(../Bilder/KornErnte.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-11 {
+    height: 100vh;
+    background-image: url(../Bilder/ChakramMesser1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-12 {
+    height: 100vh;
+    background-image: url(../Bilder/Schmuck_Anhenger.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-13 {
+    height: 100vh;
+    background-image: url(../Bilder/Rucksack1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-14 {
+    height: 100vh;
+    background-image: url(../Bilder/Kupfer_Koepfe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-15 {
+    height: 100vh;
+    background-image: url(../Bilder/KrumSchwerter1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-16 {
+    height: 100vh;
+    background-image: url(../Bilder/Stal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-17 {
+    height: 100vh;
+    background-image: url(../Bilder/Tasche.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-18 {
+    height: 100vh;
+    background-image: url(../Bilder/Werkstat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-19 {
+    height: 100vh;
+    background-image: url(../Bilder/Chassi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+/*--------------seit scrolling----------------*/
+/*-------die achse ist um 90 grar verdret-------*/
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+.horizontal-scroll-wrapper {
+    width: 150px;
+    height: 450px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform: rotate(-90deg);
+    transform-origin: center bottom;
+    margin-left: 30%;
+    margin-bottom: 0;
+    margin-top: -9%;
+    position: absolute;
+}
+
+.horizontal-scroll-wrapper div {
+    width: 150px;
+    height: 150px;
+    margin: 0;
+}
+
+.img_scr img {
+    width: 150px;
+    transform: rotate(90deg);
+    height: 150px;
+}
+
+/*-------------Text----------------------------*/
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: black;
+    margin: 0;
+    background: #818382;
+    text-shadow: 0 0 10px WhiteSmoke;
+}
+
+h2 {
+    font-size: 750%;
+    margin: 0;
+    color: black;
+    text-align: center;
+    padding-top: 10%;
+    text-shadow: 0 0 10px WhiteSmoke;
+}
+
+h3 {
+    font-size: 320%;
+    margin: 0;
+    color: black;
+    padding-left: 10%;
+    display: block;
+    padding-top: 20px;
+    text-shadow: 0 0 10px WhiteSmoke;
+}
+
+h4 {
+    font-size: 30px;
+    margin: 0;
+    color: black;
+    display: inline-block;
+    text-shadow: 0 0 10px WhiteSmoke;
+}
+
+p {
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 50%;
+    display: inline-block;
+    float: left;
+    text-shadow: 0 0 10px WhiteSmoke;
+}
+
+.index {
+    font-size: 720%;
+    color: black;
+    text-align: left;
+    margin-top: 18%;
+    margin-left: 20%;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 0;
+    text-shadow: 0 0 10px WhiteSmoke;
+}
+
+p a {
+    color: black;
+    font-size: 18px;
+}
+
+.index_p {
+    margin-left: 13%;
+    font-size: 12px;
+}
+
+p.klein {
+    font-size: 12px;
+    margin-left: 20%;
+    padding: 0;
+    float: none;
+}
+
+/*--------------Aside-----------------------------*/
+
+aside {
+    position: absolute;
+    right: 0;
+    width: 28%;
+    margin: 20px;
+    border-left: 2px solid black;
+    text-shadow: 0 0 10px WhiteSmoke;
+    padding: 30px;
+    margin-top: 130px;
+    padding-bottom: 1px;
+}
+
+/*--------------Nav-----------------------------*/
+
+.fix {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+.fix3 {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+nav ul {
+    text-align: center;
+    background-color: #818382;
+    margin: 0px;
+    padding: 0 0 3px 0;
+    font-size: 18px;
+}
+
+nav ul li {
+    text-align: center;
+    display: inline-block;
+    margin: 15px 10px;
+}
+
+nav ul li a {
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: dimgrey;
+    color: black;
+    transform: scale(1.2);
+}
+
+/*-------------footer-----------------*/
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: #818382;
+    text-align: center;
+}
+
+.botten {
+    text-align: right;
+}
+
+a[href="#top"] {
+    text-decoration: none;
+    display: inline-block;
+    width: 80px;
+    position: fixed;
+    left: 90%;
+    margin-bottom: 25px;
+}
+
+.fix2 {
+    position: fixed;
+    bottom: 0;
+    text-align: right;
+}
+
+.ko1 {
+    float: left;
+    margin: 5px;
+    padding: 0;
+    padding-left: 20%;
+    font-size: 18px;
+}
+
+.ko a {
+    margin-left: 15px;
+}
+
+.ko {
+    display: inline-flex;
+    float: right;
+    margin-top: 5px;
+    margin-right: 20%;
+    margin-left: 0;
+    padding: 0;
+}
+
+/*-----------------kontackte------------------------*/
+
+label {
+    width: 20%;
+    display: inline;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+textarea {
+    width: 76%;
+    padding: 3% 3% 0px 1%;
+    border: none;
+    border-bottom: 2px solid gray;
+    color: gray;
+    margin-left: 20%
+}
+
+textarea[ name="message"] {
+    border: 2px solid gray;
+   padding: 3% 3% 0px 1%;
+    height: 180px;
+    width: 76%;
+}
+
+textarea {
+    height: 240px;
+}
+
+input:focus,
+textarea:focus {
+    background-color: lightgrey;
+}
+
+form {
+    margin: 1%;
+    border: 1px solid gray;
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    right: 25%;
+    background-color: #818382;
+    padding: 2%
+}
+
+select {
+    margin-left: 9%
+}
+
+input[type="submit"] {
+    margin-left: 20%;
+}
+
+label[for="gm"] {
+    margin-left: 14%;
+}
+
+label[for="gw"] {
+    margin-left: 10%;
+}
+
+/*------------Inpressum------------*/
+
+.as_ko p {
+    font-size: 18px;
+    margin-top: 99%;
+    top: 22%;
+    left: 26%;
+    right: 26%;
+    bottom: 10%;
+}
+
+.ma_ko {
+    background-color: gray;
+    position: fixed;
+    top: 22%;
+    left: 26%;
+    right: 26%;
+    bottom: 10%;
+}
+
+.ar_ko p {
+    font-size: 22px;
+    margin: 20px;
+    padding-left: 5%;
+    padding-top: 3%
+}
